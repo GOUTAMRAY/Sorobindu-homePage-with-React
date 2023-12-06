@@ -1,0 +1,92 @@
+
+// hand holding css
+.hand-holding-section{
+  padding: 40px 0px;
+  
+
+
+ .hand-holding-container{
+      position: relative;
+
+   .hand-support-img{
+    text-align: center;
+    margin-bottom: 20px;
+
+    &::after{
+      content: "";
+      height: 10px;
+      width: 120px;
+      left: 60%;
+      top: 5%;
+      position: absolute;
+      background-image: url("https://sorobindu.com/wp-content/themes/edumall/assets/svg/headline-curve.svg");
+      background-repeat: no-repeat;
+
+    }
+   }
+   .handle-single-box{
+        padding: 20px 0px;
+         display: flex;
+         flex-direction: row;
+         gap: 20px;
+        
+     .box-theme{
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          background-color: #f1f3f8;
+          color: #333;
+          padding: 20px;
+          border-radius: 10px;
+          transition: 0.4s;
+          width: 360px;
+
+          &:hover{
+           background-color: var(--sb-primary);
+           color: #fff;
+           
+          }
+          &:hover span{
+            color: #fff;
+          }
+
+       span{
+              display: block;
+              font-size: 30px;
+              color: var(--sb-primary);
+         
+       }
+       .hand{
+
+         h3{
+           font-size: 20px;
+           font-weight: 700;
+           line-height: 26px;
+         }
+         p{
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 26px;
+         } 
+       }
+     }
+     
+   }
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

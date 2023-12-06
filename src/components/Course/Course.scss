@@ -1,0 +1,115 @@
+
+.our-course{
+    padding: 40px 0px;
+
+  .our-course-container{
+        position: relative;
+             .cousre-abc{
+              text-align: center;
+              margin: 25px 0px;
+
+              &::after{
+                content: "";
+                height: 10px;
+                width: 120px;
+                left: 52%;
+                top: 5%;
+                position: absolute;
+                background-image: url("https://sorobindu.com/wp-content/themes/edumall/assets/svg/headline-curve.svg");
+                background-repeat: no-repeat;
+              }
+             }
+
+   .course-item-data{
+        display: flex;
+        justify-content:space-between;
+        gap: 15px;
+
+    .course-item-box{
+         box-shadow: var(--shadow-md);
+         border: 1px solid rgb(229, 229, 229);
+         border-radius: 10px;
+        
+      img{
+        text-align: center;
+         width: 390px ;
+         border-radius: 10px;
+      }
+      .title{
+         text-align: center;
+         margin-bottom: 20px;
+      }
+      .course-desc{
+            width: 350px;
+             display: flex;
+             justify-content: space-between;
+            
+            
+
+        .course-left{
+             margin-left: 25px;
+             margin-right: 15px;
+            
+          ul{
+             display: flex;
+             flex-direction: column;
+             gap: 5px;
+            li{
+                font-size: 14px;
+                font-weight: 400;
+
+              span{
+                color: var(--sb-primary);
+              }
+            }
+          }
+        }
+        .course-right{
+          ul{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+           li{
+               font-size: 14px;
+               font-weight: 400;
+
+             span{
+               color: var(--sb-primary);
+             }
+           }
+         }
+        }
+      }
+      .register-btn{
+        
+        font-size: 15px;
+        width: 350px;
+        color: #fff;
+        background-color: var(--sb-primary);
+        border: none;
+        padding: 8px 0px;
+        border-radius: 5px;
+        margin: 20px 20px;
+       transition: .5s;
+
+        &:hover{
+          background-color: #ffc221;
+          color: #333;
+        }
+      }
+    }
+   }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+

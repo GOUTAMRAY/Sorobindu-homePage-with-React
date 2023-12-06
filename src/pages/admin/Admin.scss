@@ -1,0 +1,46 @@
+
+
+.panel{
+     display: flex;
+     padding: 50px 0px;
+  .left{
+    
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+
+      li{
+
+        a{
+         display: block;
+         padding: 10px;
+         color: #333;
+         background-color: aqua;
+         width: 150px;
+         border-radius: 5px;
+
+        }
+        .active{
+          background-color: green;
+          color: aliceblue;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

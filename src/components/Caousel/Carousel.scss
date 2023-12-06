@@ -1,0 +1,84 @@
+
+
+// carousel css 
+
+.carousel-inage{
+  padding: 30px 0px;
+
+ .carousel-inage-container{
+     display: flex;
+     justify-content: space-evenly;
+     gap: 20px;
+
+   .carousel-img-left{
+        width: 750px;
+    
+        border-radius: 10px;
+
+   }
+   .carousel-img-right{
+       padding-top: 50px;
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+       position: relative;
+
+     h3{
+     font-size: 32px;
+     font-weight: 500;
+     line-height: 38px;
+
+     &::after{
+      content: "";
+      height: 10px;
+      width: 120px;
+      left: 25%;
+      top: 21%;
+      position: absolute;
+      background-image: url("https://sorobindu.com/wp-content/themes/edumall/assets/svg/headline-curve.svg");
+      background-repeat: no-repeat;
+     }
+
+     }
+     p{
+       width: 330px;
+       display: flex;
+       align-self: self-start;
+       font-size: 17px;
+       font-weight: 400;
+       line-height: 32px;
+     }
+     .another-btn{
+        padding: 8px;
+        border-radius: 5px;
+        display: block;
+        background-color: #ffc221;
+        color: #fff;
+        border: none;
+        width: 250px;
+        transition: 0.5s;
+        font-size: 15px;
+        font-weight: 400;
+
+        &:hover{
+         background-color: var(--sb-primary);
+        }
+
+     }
+   }
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

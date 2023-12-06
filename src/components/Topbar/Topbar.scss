@@ -1,0 +1,60 @@
+
+// top bar css
+.top-bar{
+  background-color:#0063ad ;
+  padding: 8px 0px;
+  color: #fff;
+
+.top-bar-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+  .top-bar-left{
+         display: flex;
+         align-items: center;
+    ul{
+       display: flex;
+       align-items: center;
+       gap: 10px;
+
+      li{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+
+       span{
+        display: flex;
+        align-items: center;
+        color: #ffc221;
+        font-size: 15px;
+       } 
+      }
+    }
+  }
+  .top-bar-right{
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 1px;
+
+    a{
+      display: block;
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+      padding: 8px 15px;
+      width: 90px;
+      background-color: #2980b9;
+
+      &:first-child{
+        border-radius: 50px 0px 0px 50px;
+      }
+      &:last-child{
+        border-radius: 0px  50px  50px 0px;
+      }
+    }
+  }
+}
+}

@@ -1,0 +1,40 @@
+
+.student-counter{
+     padding: 40px 0px;
+
+  .student-container {
+          display: flex;
+          justify-content: space-between;
+          gap: 10px;
+
+    .stu-box{
+         text-align: center;
+      img{
+         
+
+      }
+      h2{
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: 500;
+        color: var(--sb-primary);
+        margin: 10px 0px;
+      }
+      p{
+
+      }
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
