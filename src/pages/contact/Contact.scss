@@ -1,0 +1,92 @@
+
+// contact page css
+.contact{
+   padding: 50px 0px;
+  .contact-container{
+
+    .about-title{
+      text-align: center;
+    .about-tt{
+       font-size: 14px;
+       color: #333333;
+       font-weight: 400;
+       margin-bottom: 10px;
+
+    }
+    .about-abb{
+      font-size: 28px;
+      color: var(--sb-primary);
+      font-weight: 700;
+      margin-bottom: 50px;
+    }
+  
+    
+  }
+
+
+
+  }
+}
+
+// contact details
+.contact-details{
+   padding: 50px 0px;
+  .conact-details-container{
+         display: flex;
+         justify-content: space-between;
+         gap: 20px;
+
+    .contact-text{
+         display: flex;
+         flex-direction: column;
+         gap:20px ;
+
+       h1{
+         font-size: 32px;
+         line-height: 52px;
+         font-weight: 700;
+         color: #333333;
+         width: 250px;
+       }
+       .cc-box{
+
+         .address{
+              display: flex;  
+              gap: 20px;
+
+          .icon-bb{
+            color: var(--sb-primary);
+            font-size: 30px;
+          }
+          .address-ddd{
+            font-size:18px ;
+            font-weight: 700;
+            color: 
+            #252525;
+            margin-top: 5px;
+          }
+
+         } 
+        .number-nnn{
+          color: #6e6d6d;
+          font-size: 14px;
+          font-weight: 400;
+        }
+
+       }
+    }
+
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

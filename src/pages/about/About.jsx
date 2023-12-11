@@ -5,7 +5,7 @@ import "./About.scss"
 const About = () => {
   return (
     <>
-      <PageHeader title={"About"} />
+      <PageHeader title={"About"} /> 
       <div className="about-us">
         <div className="container about-container">
           <div className="about-title">
