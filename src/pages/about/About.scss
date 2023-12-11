@@ -1,0 +1,92 @@
+
+
+.about-us{
+    padding: 50px 0px;
+  .about-container{
+
+    .about-title{
+        text-align: center;
+      .about-tt{
+         font-size: 14px;
+         color: #333333;
+         font-weight: 400;
+         margin-bottom: 10px;
+
+      }
+      .about-abb{
+        font-size: 28px;
+        color: var(--sb-primary);
+        font-weight: 700;
+        margin-bottom: 50px;
+      }
+    
+      
+    }
+    .about-details{
+           text-align: center;
+           padding-top: 80px 30px;
+           width: 1000px;
+           margin: auto;
+      .sikka-hok{
+        color: var(--sb-primary);
+        font-size: 19px;
+        font-weight: 400;
+      }
+      .funny{
+        font-size: 34px;
+        color: #252525;
+        font-weight: 700;
+
+        padding: 20px 0px;
+      }
+      .text-details-ab{
+        line-height: 37px;
+        color: #696969;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+// mission vission css 
+.mission-vission{
+
+  .mission-container{
+      background-color: #eff5f7;
+      padding: 50px 40px;
+      display: flex;
+      gap: 40px;
+
+    .mission{
+       width: 600px;
+      .mission-head{
+       font-size: 34px;
+       font-weight: 700;
+       color: #252525;
+       margin-bottom: 20px;
+      }
+      .mission-text{
+        line-height: 37px;
+        color: #696969;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
